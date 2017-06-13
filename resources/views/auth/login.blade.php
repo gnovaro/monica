@@ -21,25 +21,25 @@
               </div>
 
               <div class="form-group">
-                <label for="password">Password</label>
+                <label for="password">{{ trans('auth.Password') }}</label>
                 <input type="password" class="form-control" id="password" name="password">
               </div>
 
               <div class="form-group actions">
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" class="btn btn-primary">{{ trans('auth.Login') }}</button>
               </div>
 
               <div class="checkbox">
                 <label>
-                  <input type="checkbox" name="remember" checked> Remember Me
+                  <input type="checkbox" name="remember" checked> {{ trans('auth.Remember me') }}
                 </label>
               </div>
 
               <div class="form-group links">
                 <ul>
-                  <li>Forget your password? <a href="/password/reset">Reset your password</a></li>
+                  <li>Forget your password? <a href="/password/reset">{{ trans('auth.Reset your password') }}</a></li>
                   @if(env('APP_DISABLE_SIGNUP') != 'true')
-                    <li>Don't have an account? <a href="/register">Sign up</a></li>
+                    <li>Don't have an account? <a href="/register">{{ trans('auth.Sign up') }}</a></li>
                   @endif
                 </ul>
               </div>
