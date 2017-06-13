@@ -8,7 +8,7 @@
 
           <div class="signup-box">
             <img class="logo" src="/img/small-logo.png" alt="">
-            <h2>Login to your account</h2>
+            <h2>{{ trans('auth.Login to your account') }}</h2>
 
             @include ('partials.errors')
 
