@@ -39,7 +39,7 @@
                 <ul>
                   <li>{{ trans('auth.Forget your password?') }} <a href="/password/reset">{{ trans('auth.Reset your password') }}</a></li>
                   @if(env('APP_DISABLE_SIGNUP') != 'true')
-                    <li>{{ trans('auth.Don't have an account?') }} <a href="/register">{{ trans('auth.Sign up') }}</a></li>
+                    <li>{{ trans('auth.Don\'t have an account?') }} <a href="/register">{{ trans('auth.Sign up') }}</a></li>
                   @endif
                 </ul>
               </div>
