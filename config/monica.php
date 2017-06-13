@@ -6,5 +6,6 @@ return [
         'fr',
         'pt-br',
         'ru',
+        'es',
     ],
 ];
